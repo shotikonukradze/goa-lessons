@@ -1,0 +1,14 @@
+body{
+    background-color: lightgreen;
+}
+
+h1{
+    position: absolute;
+    left: 600px;
+}
+
+button{
+    position: relative;
+    top: 200px;
+}
+
