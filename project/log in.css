@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(goa.png);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: green;
+    border: 2px solid green;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.btn:hover{
+    background-color: lightgreen;
+    outline: none;
+}
+
+
+.btn:focus{
+    outline: none;
+}
+
+h2{
+    color: white;
+}
+
+.form{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
+    position: absolute;
+    top: 130px;
+    left: 425px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 22px;
+    background-color: green;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid green;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: green;
+    font-family: Arial;
+
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: green;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: .4s ease;
+}
+
+.btnn:hover{
+    background: lightgreen;
+    color: green;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: black;
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: green;
+    transition: .3s ease;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+
+.form .link a:hover{
+    color: white;
+}
+
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon ion-icon{
+    color: white;
+    font-size: 30px;
+    padding-left:14px;
+    padding-top: 5px;
+    transition: .3s ease-in-out;
+}
+
+.icon ion-icon:hover{
+    color: green;
+}
