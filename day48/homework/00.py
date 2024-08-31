@@ -1,0 +1,1 @@
+#codewars :) vici bevrjel weria ase mara vaketeb yvelafers honori 700 meti unda mqondes uew

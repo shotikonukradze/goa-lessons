@@ -8,8 +8,8 @@
 
 # computer = input("shemoitanet (*,/,+, or -): ")
 
-# num1 = (float(input("shemoitanet pirveli ricxvi: ")))
-# num2 = (float(input("shemoitanet meore ricxvi: ")))
+# num1 = float(input("shemoitanet pirveli ricxvi: "))
+# num2 = float(input("shemoitanet meore ricxvi: "))
 
 # if computer == "+":
 #      print(num1 + num2)
@@ -48,17 +48,3 @@
 #     print(int(value))
 
 # to_integer()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
