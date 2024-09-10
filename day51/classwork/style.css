@@ -1,0 +1,71 @@
+/* #parent {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+
+}
+
+#child {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition: transform 5s;
+}
+
+#child:hover {
+    transform: translateX(100px);
+}
+
+#parent ,p {
+    display: flex;
+} */
+
+/* davakeba2 */
+ /* #parent {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+
+}
+
+#child {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+#child:hover {
+    transform: rotate(45deg);
+    background-color: blueviolet;
+} */
+
+
+/* davaleba3 */
+#parent {
+    width: 500px;
+    height: 500px;
+    background-color: red;
+
+}
+
+#child {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    animation: mymove 5s infinite;
+}
+
+#child:hover {
+    transform: rotate(45deg);
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+@keyframes mymove {
+    form {top: 0px;}
+    to {top: 20px;}
+}
